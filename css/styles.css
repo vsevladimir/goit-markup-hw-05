@@ -131,6 +131,7 @@ img {
 .footer-paragraph {
     color: var(--light);
     max-width: 264px;
+    margin-top: 16px;
 }
 
 .header-link {
@@ -261,7 +262,6 @@ img {
 }
 
 .logo-footer {
-    margin-bottom: 16px;
     display: inline-block;
 }
 
