@@ -562,7 +562,16 @@ img {
     position: relative;
 }
 
+.current-page-index::after {
+    position: absolute;
+}
+
 .current-page-portfolio {
+    color: var(--pressed-state);
+    position: relative;
+}
+
+.current-page-portfolio::after {
     color: var(--pressed-state);
     position: relative;
 }
