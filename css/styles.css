@@ -576,12 +576,6 @@ img {
     transition: var(--smooth-transition);
 }
 
-.current-page {
-    color: var(--pressed-state);
-    position: relative;
-    transition: var(--smooth-transition);
-}
-
 .header-item {
     position: relative;
 }
