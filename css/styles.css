@@ -301,7 +301,6 @@ img {
     padding: 24px 0;
     font-weight: 500;
     color: var(--dark);
-    position: relative;
 }
 
 .header-contact-list {
@@ -556,4 +555,14 @@ img {
 .link-customers:is(:hover,:focus) {
     border-color: var(--pressed-state);
     color: var(--pressed-state);
+}
+
+.current-page-index {
+    color: var(--pressed-state);
+    position: relative;
+}
+
+.current-page-portfolio {
+    color: var(--pressed-state);
+    position: relative;
 }
