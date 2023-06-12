@@ -560,18 +560,40 @@ img {
 .current-page-index {
     color: var(--pressed-state);
     position: relative;
+    transition: var(--smooth-transition);
 }
 
 .current-page-index::after {
     position: absolute;
+    content: ;
+    left: 0;
+    bottom: -1;
+    height: 4px;
+    width: 67px;
+    background-color: var(--pressed-state);
+    border-radius: 2px;
+    display: block;
 }
 
 .current-page-portfolio {
     color: var(--pressed-state);
     position: relative;
+    transition: var(--smooth-transition);
 }
 
 .current-page-portfolio::after {
-    color: var(--pressed-state);
+    position: absolute;
+    content: ;
+    left: 0;
+    bottom: -1;
+    height: 4px;
+    width: 67px;
+    background-color: var(--pressed-state);
+    border-radius: 2px;
+
+}
+
+.header-item {
     position: relative;
+    display: block;
 }
