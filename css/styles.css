@@ -579,3 +579,7 @@ img {
 .header-item {
     position: relative;
 }
+
+.header-contact-link {
+    transition: var(--smooth-transition);
+}
