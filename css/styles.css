@@ -302,6 +302,7 @@ img {
     padding: 24px 0;
     font-weight: 500;
     color: var(--dark);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contact-list {
@@ -561,7 +562,6 @@ img {
 .current-page {
     color: var(--pressed-state);
     position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .current-page::after {
