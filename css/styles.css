@@ -621,6 +621,7 @@ img {
 }
 
 .modal-button-close {
+    position: absolute;
     top: 24px;
     right: 24px;
     width: 24px;
@@ -640,10 +641,8 @@ img {
     background-color: var(--pressed-state);
     border: none;
 }
-
 .modal-icon-close {
-    width: 8px;
-    height: 8px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-icon-close:is(:hover,:focus) {
